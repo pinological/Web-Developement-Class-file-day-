@@ -1,81 +1,98 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-header p{
+header{
     position: fixed;
-    text-align: center;
-    height: 20px;
-    display: block;
     color: white;
-    font-weight: bolder;
-    padding: 10px;
     background-color: crimson;
+    text-align: center ;
+    height: 60px;
     width: 100%;
     z-index: 1;
 }
+
+header p{
+    display: inline;
+    font-weight: bold;
+    border: 4px solid white;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+    top: 20px;
+    border-radius: 30px;
+}
+
 .banner{
-position: relative;
+    position: relative;
 }
 .banner img{
     width: 100%;
 }
 .banner p{
     position: absolute;
-    bottom: 300px;
-    background-color: rgba(0, 0, 0, 0.289);
+    bottom: 400px;
     color: white;
-    display: block;
-    margin-right: 40%;
+    background-color: rgba(0, 0, 0, 0.671);
     margin-left: 5%;
+    margin-right: 50%;
+    padding: 20px;
+    text-align: justify;
 }
 .banner p span{
-    font-weight: bolder;
-    font-size: 40px;
+    font-weight: bold;
+    display: block;
+    font-size: 20px;
 }
 nav{
-    background-color: rgb(155, 18, 45);
+    background-color: rgb(190, 15, 50);
+    height: 40px;
     text-align: center;
-    height: 60px;
     position: sticky;
-    top: 40px;
     z-index: 1;
+    top: 60px
+
 }
-nav .linker{
+nav a{
+    padding: 10px 10%;
     color: white;
+    font-weight: bold;
     text-decoration: none;
-    padding: 20px 10%;
+
     display: inline-block;
-
 }
 
-nav .linker:hover{
-    color: white;
+nav a:hover{
+    padding: 10px 10%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
     text-decoration: none;
-    padding: 20px 10%;
     display: inline-block;
     background-color: black;
 }
-main {
-    margin: 0px 15%;
-}
 
-main span{
-    margin: 20px 0px;
-    display: inline-block;
+main{
+    margin: 20px 10%;
+}
+main p{
     font-weight: bold;
 }
-.gallary{
-    text-align: center;
+article{
+    text-align: justify;
+    margin: 20px 0px;
 }
+
 .gallary img{
     width: 100%;
 }
+
 footer{
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     height: 30px;
     text-align: center;
-
+}
+footer p{
+    color: white;
+    position: relative;
+    top: 5px
 }
