@@ -1,0 +1,67 @@
+/* .green:hover{
+    background-color: green;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.red:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+img{
+    width: 20%;
+}
+
+img:hover{
+    width: 25%;
+} */
+/* 
+form{
+    text-align: center;
+}
+form label{
+    display: block;
+    margin: 20px;
+}
+form input{
+    border: 4px solid rgb(0, 0, 0);
+    height: 20px;
+    width: 200px;
+}
+
+form input:valid{
+    border: 4px solid rgb(12, 255, 4);
+    height: 20px;
+    width: 200px;
+}
+
+form input:invalid{
+    border: 4px solid rgb(255, 4, 4);
+    height: 20px;
+    width: 200px;
+} */
+
+/* p:last-child{
+    color: red;
+} */
+
+/* p::after{
+    content: "'";
+}
+p::before{
+    content: "this is before---";
+} */
+
+/* p::first-line{
+    background-color: green;
+    color:wheat
+} */
+/* p::first-letter{
+    font-size: 30px;
+    color: aqua;
+} */
+
+p::selection{
+    background-color: crimson;
+    color: white;
+    
+}

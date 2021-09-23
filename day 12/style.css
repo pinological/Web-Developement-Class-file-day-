@@ -1,0 +1,26 @@
+/* body{
+    background-color: black;
+}
+
+@media screen and (min-width : 600px) 
+{
+    body{
+        background-color: green;
+    }
+} */
+
+/* body{
+    background-image: radial-gradient(circle, red , green);
+} */
+
+div{
+    background-color: skyblue;
+    height: 300px;
+    width: 300px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.692);
+}
+img{
+    width: 30%;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.692);;
+
+}

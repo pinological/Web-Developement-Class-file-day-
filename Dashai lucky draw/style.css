@@ -58,7 +58,6 @@ nav a{
     color: white;
     font-weight: bold;
     text-decoration: none;
-
     display: inline-block;
 }
 
@@ -95,4 +94,67 @@ footer p{
     color: white;
     position: relative;
     top: 5px
+}
+.formhere{
+    background-color: rgba(0, 0, 0, 0.123);
+    height: 100px;
+    text-align: center;
+}
+.formhere form{
+    position: relative;
+    top: 30px;
+}
+
+@media screen and (max-width: 1057px) {
+
+    .banner p{
+        bottom: 200px;
+    }
+    nav a{
+        padding: 10px 5%;
+    }
+    nav a:hover{
+        padding: 10px 5%;
+    }
+
+    
+}
+@media screen and (max-width: 762px) {
+
+    .banner p{
+        bottom: 100px;
+    }
+    
+}
+@media screen and (max-width: 647px) {
+
+    .banner p{
+        position: relative;
+        top:0px;
+        bottom: 0px;
+        margin: 0px ;
+        background-color: black;
+
+    }
+    nav a{
+        padding: 10px 5%;
+        display: block;
+
+    }
+    nav a:hover{
+        padding: 10px 5%;
+        display: block;
+    }
+    nav{
+        background-color: rgb(190, 15, 50);
+        height: 150px;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        top: 0px;
+    
+    }
+    header{
+        position: relative;
+    }
 }
