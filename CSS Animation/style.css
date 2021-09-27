@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(22, 3, 43);
+}
+section{
+    text-align: center;
+    margin-top: 10%;
+}
+a{
+    display: block;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    transition: all 0.5s;
+    transition-timing-function: ease;
+}
+
+a:hover{
+    font-size: 50px;
+    text-decoration: line-through;
+    color: blueviolet;
+    font-weight: bold;
+}
+.maintext{
+    color: white;
+    font-size: 40px;
+}
+.subtext{
+    color: white;
+    display: inline-block;
+}
+.css{
+    display: inline-block;
+    background-color: white;
+    width: 30px;
+    height: 20px;
+    transition: all 1s;
+    transition-timing-function: ease;
+    font-weight: bold;
+}
+.css:hover{
+    width: 20%;
+}
+
+.html{
+    display: inline-block;
+    background-color: white;
+    width: 30px;
+    height: 20px;
+    transition: all 1s;
+    transition-timing-function: ease;
+    font-weight: bold;
+}
+.html:hover{
+    width: 30%;
+}
+
+
+

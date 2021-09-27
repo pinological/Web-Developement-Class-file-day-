@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(35, 3, 56);
+}
+section{
+    text-align: center;
+    margin-top: 10%;
+}
+a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    transition: all 0.5s;
+}
+
+a:hover{
+    text-decoration: line-through;
+    font-size: 45px;
+    margin: 10px;
+}
+
+.skilltree{
+    text-align: center;
+}
+.big{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.sub{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+}
+.htmlpro{
+    background-color: white;
+    height: 20px;
+    width: 30px;
+    display: inline-block;
+    transition: all 2s;
+}
+.htmlpro:hover{
+    width: 600px;
+}
+.csspro{
+    background-color: white;
+    height: 20px;
+    width: 30px;
+    display: inline-block;
+    transition: all 2s;
+}
+.csspro:hover{
+    width: 40px;
+}

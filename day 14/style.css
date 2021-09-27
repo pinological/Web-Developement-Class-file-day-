@@ -1,0 +1,9 @@
+.box{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    transition: all 4s;
+}
+.box:active{
+    width: 800px;
+}

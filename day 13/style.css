@@ -1,4 +1,4 @@
-.dashline{
+/* .dashline{
     background-color: rgb(255, 174, 0);
     height: 5px;
     width: 200px;
@@ -7,4 +7,38 @@
 }
 section{
     text-align: center;
+} */
+
+/* div{
+    background-color: yellow;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    
 }
+
+div:active{
+    box-shadow: 20px 30px 30px rgba(0, 0, 0, 0.685);
+} */
+
+/* p{
+    text-shadow: 3px 3px 5px red;
+} */
+
+div{
+    background-color: gray;
+    height: 300px;
+    width: 300px;
+    transition: background-color 1s , height 2s,width 2s;
+    transition-delay: 2s;
+
+}
+div:hover{
+    background-color: rgb(255, 0, 0);
+    height: 400px;
+    width: 500px;
+    
+
+}
+
