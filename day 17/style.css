@@ -1,0 +1,53 @@
+/* .abs{
+    font-size: 30px;
+} */
+/* html{
+    font-size: 20px;
+}
+
+div{
+    font-size: 30px;
+}
+.rel{
+    font-size: 2rem;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: gray;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:10px 20px;
+    
+
+}
+.item{
+    background-color: black;
+    color: white;
+    opacity: 50%;
+}
+
+.item-1{
+    grid-column: 1/4;
+    visibility: hidden;
+}
+.item-4{
+    grid-column: 1/4;
+}
+.item-5{
+    grid-row: 3/4;
+
+}
+
+.main img{
+    width: 50%;
+    position: relative;
+}
+.contain{
+    position: absolute;
+    bottom: 60px;
+}
