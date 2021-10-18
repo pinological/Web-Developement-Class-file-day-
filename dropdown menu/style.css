@@ -1,0 +1,62 @@
+.dropdown{
+    background-color: aqua;
+    display: inline-block;
+    padding: 30px;
+    position: relative;
+}
+.dropdown-contain{
+    position: absolute;
+    background-color: rgb(255, 9, 9);
+    padding: 10px;
+    display: none;
+    z-index: 1;
+    top: 80px;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    right: 6px;
+    transform: scale(1);
+}
+.dropdown-contain p{
+    background-color: white;
+    color: black;
+    padding: 20px;
+
+}
+.dropdown:hover .dropdown-contain{
+    display: block;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.swaper{
+    background-image: url("banner1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50vh;
+    width: 50vw;
+    animation: myanimation 20s infinite alternate-reverse ease-in-out;
+    
+}
+@keyframes myanimation {
+    0%{
+        background-image: url("neckband.jpg");
+        
+    }
+    25%{
+        background-image: url("single\ driver.png");
+
+    }
+    50%{
+        background-image: url("sport.png");
+        
+    }
+    75%{
+        background-image: url("multi\ driver\ gardian\ 2.png");
+        
+    }
+    100%{
+        background-image: url("tws\ v1.png");
+        
+    }
+}
