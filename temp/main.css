@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.sectionbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.head {
+    font-size: 2em;
+    font-weight: bold;
+    background-color: green;
+    height: 100px;
+}
+
+.sidebar {
+    font-weight: 100;
+    font-size: 0.8em;
+}
+
+.search {
+    margin: 20px;
+}
+
+input[type="submit"] {
+    color: rgb(255, 255, 255);
+    background-color: green;
+    border: 0px;
+    height: 30px;
+    width: 60px;
+    border-radius: 30px;
+}
+
+input[type="text"] {
+    border: 2px green solid;
+    height: 30px;
+    width: 280px;
+    padding: 0px 30px;
+    border-radius: 30px;
+    color: black;
+}
+
+.listcontainer {
+    background-color: rgb(199, 199, 199);
+    border: 2px black solid;
+    width: 30%;
+}
+
+li {
+    margin: 2px;
+    background-color: rgb(123, 123, 123);
+    padding: 10px;
+    list-style-type: none;
+}
